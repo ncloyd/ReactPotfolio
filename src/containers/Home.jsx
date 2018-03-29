@@ -1,19 +1,14 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
-
 
 const HomePage = () => (
-  	<div className="back">
-	    <NavBar />
-			<div className="card bg-dark text-white">
-			  <img className="card-img" src="" alt="img" />
-				  <div className="card-img-overlay">
-				    <h5 className="card-title"></h5>
-				  </div>
-			</div>
-		<Footer />
-	</div>
+  <div>	
+		<div className="card bg-dark text-white jumbo">
+				  <img className="card-img" src="" alt="img" />
+					  <div className="card-img-overlay">
+					    <h5 className="card-title">blah</h5>
+					  </div>
+		</div>
+  </div>
 );
 
 export default HomePage;

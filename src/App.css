@@ -6,3 +6,71 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.jumbo {
+	width: 100%;
+	height: 500px;
+	background-color: #424949;
+}
+
+.pfolio {
+  	background: #ccc;
+	height: 100%;
+	justify-content: center;
+	margin: 0 auto;
+	display: flex;
+	padding: 20px;
+}
+
+.pfolioContent {
+	width: 840px;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: flex-start;
+}
+
+.meme{
+	font-family: 'Josefin Sans', sans-serif;
+	text-indent: 50px;
+	text-align: justify;
+	padding: 5px 50px 40px 50px;
+	font-weight: bold;
+}
+
+.card, .about{
+	font-family: 'Poiret One', cursive;
+}
+
+h3{
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.sq{
+	width: 400px;
+	height: 150px;
+	margin: 0 auto;
+	background-color: #bee;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+
+
+/*
+font-family: 'Poiret One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Codystar', cursive;
+*/

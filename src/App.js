@@ -1,25 +1,20 @@
 //import React, { Component } from 'react';
 import React from 'react';
-
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import Home from './containers/Home';
-import Portfolio from './containers/Portfolio';
-import Contact from './containers/Contact';
-
+import HomePage from './containers/Home';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 const App = () => (
-  <Router>
-      <div className="App">
-        <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contact" component={Contact} />
-        </Switch>
-      </div>
-  </Router>
+  <div className="App">
+  	<div>
+	  	<HomePage />
+	  	<About />
+	  	<Portfolio />
+		<Footer />
+	</div>
+  </div>
 );
-
 
 export default App;
