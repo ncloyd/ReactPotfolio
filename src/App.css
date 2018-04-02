@@ -17,8 +17,9 @@ html, body {
 
 .jumbo {
 	width: 100%;
-	height: 500px;
+	max-height: 500px;
 	background-color: #424949;
+	border-radius: 0;
 }
 
 .pfolio {
@@ -52,6 +53,7 @@ html, body {
 .card, .about{
 	font-family: 'Poiret One', cursive;
 }
+
 
 h3{
 	margin-top: 20px;
