@@ -20,6 +20,7 @@ html, body {
 	max-height: 500px;
 	background-color: #424949;
 	border-radius: 0;
+	border: none;
 }
 
 .pfolio {
