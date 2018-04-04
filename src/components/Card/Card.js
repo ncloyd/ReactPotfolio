@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import placehold from './burger1.jpg';
 
 class Card extends Component {
 	
@@ -6,9 +7,10 @@ state = {
 	projects: [
 		{"name": "hamburger",
 		 "url": "https://afternoon-sea-84029.herokuapp.com/index",
-		"photo": "http://lorempixel.com/200/100"},
+		},
 		{"name": "train",
-		"photo": "http://placekitten.com/g/200/300"}
+		 "url": "https://afternoon-sea-84029.herokuapp.com/index",
+		 "photo": "https://lorempixel.com/200/300/cats"}
 	]
 }
 
@@ -16,9 +18,11 @@ state = {
 	render() {
 		return (
 			<div className="card sq">
-		  		<img className="card-img-top" src={this.state.projects[0].photo} alt="Card image cap"/>
 		  		<div className="card-body">
-		    		<p className="card-text">Card</p>
+		  			<a href={this.state.projects[0].url} target="blank">
+		  				<img className="card-img sample" src={placehold} alt="Card image cap"/>
+		  	    		<p className="card-img-overlay card-text">Card</p>
+		  			</a>
 		  		</div>
 			</div>
 		)

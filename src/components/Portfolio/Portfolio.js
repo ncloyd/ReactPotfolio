@@ -6,8 +6,6 @@ const Portfolio = () => (
 		<div className="pfolioContent">
 			<Card />
 			<Card />
-			<Card />
-			<Card />
 		</div>
 	</div>
 );

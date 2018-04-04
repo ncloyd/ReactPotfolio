@@ -1,8 +1,9 @@
 import React from 'react';
+import pic from './adult-beach-cliff-981826.jpg';
 
 const Jumbo = () => (
 		<div className="card bg-dark text-white jumbo">
-				  <img className="card-img jumbo" src="http://lorempixel.com/400/200" alt="img" />
+				  <img className="card-img jumbo" src={pic} alt="img" />
 					  <div className="card-img-overlay">
 					    <h5 className="card-title">blah</h5>
 					  </div>
@@ -10,3 +11,4 @@ const Jumbo = () => (
 );
 
 export default Jumbo;
+
