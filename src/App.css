@@ -41,17 +41,19 @@ html, body {
 	padding: 10px;
 }
 
-div.card.sq{
+/*div.card.sq{
 	margin: 0 auto;
 	margin: 10px;
-}
+}*/
 
 .sq{
+	margin: 0 auto;
+	margin: 10px;
 	display: flex;
 	max-width: 450px;
 	max-height: 250px;
 	position: relative;
-	background-color: #000;
+	font-family: 'Poiret One', cursive;
 }
 
 .card-body {
@@ -66,7 +68,7 @@ div.card.sq{
 	object-fit: cover;
 }
 
-.card, .about{
+.about{
 	font-family: 'Poiret One', cursive;
 }
 

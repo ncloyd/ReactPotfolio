@@ -17,14 +17,12 @@ state = {
 
 	render() {
 		return (
-			<div className="card sq">
-		  		<div className="card-body">
+		  		<div className="card-body sq">
 		  			<a href={this.state.projects[0].url} target="blank">
 		  				<img className="card-img sample" src={placehold} alt="Card image cap"/>
-		  	    		<p className="card-img-overlay card-text">Card</p>
+		  	    		<p className="card-img-overlay card-text"></p>
 		  			</a>
 		  		</div>
-			</div>
 		)
 	}
 };
