@@ -31,20 +31,22 @@ html, body {
 	display: flex;
 }
 
-.pfolioContent {
+/*.pfolioContent {
 	justify-content: center;
 	width: 1200px;
 	text-align: center;
 	display: flex;
-	flex-flow: row wrap;
-	align-content: flex-start;
 	padding: 10px;
-}
-
-/*div.card.sq{
-	margin: 0 auto;
-	margin: 10px;
 }*/
+
+.flex-container {
+  max-width: 1000px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 10px;
+  margin-bottom: 20px;
+}
 
 .sq{
 	margin: 0 auto;
@@ -78,13 +80,14 @@ html, body {
 	text-align: justify;
 	padding: 5px 50px 40px 50px;
 	font-weight: bold;
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
 h3{
 	margin-top: 30px;
 	font-weight: bold;
+	font-family: 'Poiret One', cursive;
 }
 
 .foot{

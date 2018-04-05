@@ -5,7 +5,6 @@ const Portfolio = () => (
 	<div className="pfolio">
 		<div className="pfolioContent">
 			<Card />
-			<Card />
 		</div>
 	</div>
 );
