@@ -38,9 +38,22 @@ html, body {
 .pfolio {
  	margin: 0 auto;
   	background: #ccc;
-	height: 700px;
+	height: 720px;
 	justify-content: center;
 	display: flex;
+}
+
+@media only screen and (max-width : 1088px) {
+  .pfolio {
+    height: 1090px;
+  }
+  .card-body.sq {
+  	margin: 10px;
+  }
+  card-img.sample{
+	height: 100px;
+  	width: 350px;
+  }
 }
 
 /*.pfolioContent {
@@ -62,7 +75,7 @@ html, body {
 
 .sq{
 	margin: 0 auto;
-	margin: 10px;
+	margin: 15px;
 	display: flex;
 	max-width: 450px;
 	max-height: 250px;
