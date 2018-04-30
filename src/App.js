@@ -2,7 +2,6 @@
 import React from 'react';
 import './App.css';
 import './materialize.css';
-import './style.css';
 // import HomePage from './containers/Home';
 import Jumbo from './components/Jumbo';
 import About from './components/About';

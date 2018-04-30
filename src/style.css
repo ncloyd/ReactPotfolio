@@ -19,8 +19,11 @@ p {
   color: #26a69a;
 }
 
-.parallax-container {
+.bigpic {
   min-height: 680px;
+}
+
+.parallax-container {
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);

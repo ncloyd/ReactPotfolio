@@ -23,10 +23,22 @@ html, body {
 	border: none;
 }
 
+.contact1{
+	color: #fff;
+}
+
+.jtext{
+	color: #000;
+}
+
+.beach {
+	height: 700px;
+}
+
 .pfolio {
  	margin: 0 auto;
   	background: #ccc;
-	height: 100%;
+	height: 700px;
 	justify-content: center;
 	display: flex;
 }
@@ -64,7 +76,7 @@ html, body {
 
 .sample {
 	width: 100%;
-	height: 170px;
+	height: 220px;
 	align-content: center;
 	overflow: hidden;
 	object-fit: cover;
@@ -107,15 +119,13 @@ h3{
 	font-size: 25px;
 }
 
-.contact {
-	display: block;
-}
-
 .smallimg {
 	height: 50px;
 	width: 50px;
 	padding: 5px;
 }
+
+
 
 /*
 font-family: 'Poiret One', cursive;
@@ -123,3 +133,63 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Codystar', cursive;
 */
+
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.bigpic {
+  min-height: 680px;
+}
+
+.contact {
+	max-height: 550px;
+}
+
+.parallax-container {
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  .index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
