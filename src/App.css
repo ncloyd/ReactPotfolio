@@ -32,13 +32,13 @@ html, body {
 }
 
 .beach {
-	height: 700px;
+	width: 100%;
 }
 
 .pfolio {
  	margin: 0 auto;
   	background: #ccc;
-	height: 720px;
+	height: 100%;
 	justify-content: center;
 	display: flex;
 }
@@ -89,7 +89,7 @@ html, body {
 
 .sample {
 	width: 100%;
-	height: 220px;
+	height: 100%;
 	align-content: center;
 	overflow: hidden;
 	object-fit: cover;
@@ -161,10 +161,6 @@ p {
 
 .sidenav-trigger {
   color: #26a69a;
-}
-
-.bigpic {
-  min-height: 680px;
 }
 
 .contact {

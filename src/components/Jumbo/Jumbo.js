@@ -2,7 +2,7 @@ import React from 'react';
 
 const Jumbo = () => (
 
-		<div className="parallax-container bigpic">
+		<div className="parallax-container">
 		    <div className="section no-pad-bot">
 		      	<div className="container">
 		      		<h1 className="header center teal-text text-lighten-2">Title
@@ -12,7 +12,7 @@ const Jumbo = () => (
 		        	</div>
 				</div>
 		    </div>
-		    <div className="parallax beach"><img src="/cliff.jpg" alt="Unsplashed background img 1" />
+		    <div className="parallax"><img src="/cliff.jpg" alt="Unsplashed background img 1" />
 		    </div>
 		</div>
 
