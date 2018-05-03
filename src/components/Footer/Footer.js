@@ -12,7 +12,9 @@ const Footer = () => (
 			<a href="https://linkedin.com/in/nicole-cloyd-241b0073" target="blank">
 				<img src={linkedin} alt="linkedin" className="smallimg" />
 			</a>
+			
 			<h7>Photo by Aleksandr Ledogorov on Unsplash</h7>
+			<h7>Photo by Ian Froome on Unsplash</h7>
 		</div>
 	</div>
 

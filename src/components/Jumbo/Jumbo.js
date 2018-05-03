@@ -12,7 +12,7 @@ const Jumbo = () => (
 		        	</div>
 				</div>
 		    </div>
-		    <div className="parallax beach"><img src="/beach.jpg" alt="Unsplashed background img 1" />
+		    <div className="parallax beach"><img src="/cliff.jpg" alt="Unsplashed background img 1" />
 		    </div>
 		</div>
 

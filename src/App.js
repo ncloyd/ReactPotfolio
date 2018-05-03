@@ -6,7 +6,9 @@ import './materialize.css';
 import Jumbo from './components/Jumbo';
 import About from './components/About';
 import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
+// import Portfolio from './components/Portfolio';
+import Card from './components/Card';
+
 import Footer from './components/Footer';
 
 const App = () => (
@@ -15,7 +17,7 @@ const App = () => (
 	  	<Jumbo />
 	  	<About />
 	  	<Contact />
-	  	<Portfolio />
+	  	<Card />
 		<Footer />
 	</div>
   </div>
