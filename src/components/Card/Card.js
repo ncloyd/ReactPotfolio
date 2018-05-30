@@ -5,7 +5,7 @@ class Card extends Component {
 	render() {
 		return (
 				<div className="pfolio">
-					<h3>Projects</h3>
+					<h3 className="pject">Projects</h3>
 						<div className="flex-container">
 						  		<div className="card-body sq">
 						  			<a href="https://afternoon-sea-84029.herokuapp.com/index" target="blank">

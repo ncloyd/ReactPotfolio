@@ -43,6 +43,11 @@ html, body {
 	justify-content: center;
 }
 
+.pject{
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
 .flex-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -77,7 +82,7 @@ html, body {
 
 .about{
 	font-family: 'Poiret One', cursive;
-	height: 700px;
+	max-height: 400px;
 }
 
 .meme{
@@ -90,8 +95,11 @@ html, body {
 	margin: 0 auto;
 }
 
+.about{
+	margin-top:30px;
+}
+
 h3{
-	margin-top: 30px;
 	font-weight: bold;
 	font-family: 'Poiret One', cursive;
 }
@@ -172,14 +180,13 @@ p {
 
 @media only screen and (max-width : 960px) {
   .pfolio {
-    height: 800px;
   }
   .flex-container{
   	width: 500px;
   }
   .sq {
   	margin: 10px;
-  	height: 150px;
+  	height: 120px;
   	width: 250px;
   }
   .sample{
@@ -190,12 +197,11 @@ p {
 
 @media only screen and (max-width : 1088px) {
   .pfolio {
-    height: 600px;
   }
   .card-body.sq {
   	margin: 10px;
-  	 height: 150px;
-  	width: 250px;
+  	height: 140px;
+  	width: 350px;
   }
   card-img.sample{
 	height: 100%;
