@@ -37,35 +37,15 @@ html, body {
 
 .pfolio {
  	margin: 0 auto;
+ 	text-align: center;
   	background: #ccc;
 	height: 100%;
 	justify-content: center;
-	display: flex;
 }
-
-@media only screen and (max-width : 1088px) {
-  .pfolio {
-    height: 1090px;
-  }
-  .card-body.sq {
-  	margin: 10px;
-  }
-  card-img.sample{
-	height: 100px;
-  	width: 350px;
-  }
-}
-
-/*.pfolioContent {
-	justify-content: center;
-	width: 1200px;
-	text-align: center;
-	display: flex;
-	padding: 10px;
-}*/
 
 .flex-container {
   max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -88,7 +68,7 @@ html, body {
 }
 
 .sample {
-	width: 100%;
+	width: flex;
 	height: 100%;
 	align-content: center;
 	overflow: hidden;
@@ -148,8 +128,6 @@ font-family: 'Codystar', cursive;
 */
 
 
-
-
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -176,6 +154,12 @@ p {
     width: 100%;
   }
 
+@media only screen and (max-width : 600px) {
+  .index-banner .section {
+    top: 0;
+  }
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -186,9 +170,35 @@ p {
   }
 }
 
-@media only screen and (max-width : 600px) {
-  .index-banner .section {
-    top: 0;
+@media only screen and (max-width : 960px) {
+  .pfolio {
+    height: 800px;
+  }
+  .flex-container{
+  	width: 500px;
+  }
+  .sq {
+  	margin: 10px;
+  	height: 150px;
+  	width: 250px;
+  }
+  .sample{
+	height: flex;
+	width: 100%;
+  }
+}
+
+@media only screen and (max-width : 1088px) {
+  .pfolio {
+    height: 600px;
+  }
+  .card-body.sq {
+  	margin: 10px;
+  	 height: 150px;
+  	width: 250px;
+  }
+  card-img.sample{
+	height: 100%;
   }
 }
 

@@ -4,8 +4,7 @@ class Card extends Component {
 	
 	render() {
 		return (
-			<div className="pfolio">
-				<div className="pfolioContent">
+				<div className="pfolio">
 					<h3>Projects</h3>
 						<div className="flex-container">
 						  		<div className="card-body sq">
@@ -34,7 +33,6 @@ class Card extends Component {
 					  			</div>
 					  	</div>
 				</div>
-			</div>
 		)
 	}
 };
