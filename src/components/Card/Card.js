@@ -20,7 +20,7 @@ class Card extends Component {
 						  			</a>
 						  		</div>
 						  		<div className="card-body sq">
-						  			<a href="https://github.com/ncloyd/weddingplanner" target="blank">
+						  			<a href="https://bellsandvows.herokuapp.com/" target="blank">
 						  				<img className="card-img sample" src='/wedding.jpg' alt="pic"/>
 						  	    		<p className="card-text"></p>
 						  			</a>
