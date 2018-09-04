@@ -31,14 +31,14 @@ html, body {
 	color: #000;
 }
 
-.beach {
+/* .beach {
 	width: 100%;
-}
+} */
 
 .pfolio {
  	margin: 0 auto;
  	text-align: center;
-  	background: #ccc;
+  background: #ccc;
 	height: 100%;
 	justify-content: center;
 }
@@ -109,24 +109,29 @@ h3{
 	height: 120px;
 	background-color: #424949;
 	color: white;
-	text-align: center;
+	margin: auto;
+	display: flex;
 }
 
 .footText {
 	font-family: 'Poiret One', cursive;
 	font-weight: bold;
-	text-align: center;
-	padding: 20px 0px 0px 0px;
 	font-size: 25px;
+	margin: auto;
+	height: flex;
+}
+
+.links {
+	max-width: 500px;
+	margin: auto;
+	height: flex;
 }
 
 .smallimg {
-	height: 50px;
-	width: 50px;
+	height: 70px;
+	width: 70px;
 	padding: 5px;
 }
-
-
 
 /*
 font-family: 'Poiret One', cursive;
@@ -147,10 +152,6 @@ p {
 
 .sidenav-trigger {
   color: #26a69a;
-}
-
-.contact {
-	max-height: 550px;
 }
 
 .parallax-container {
@@ -198,19 +199,6 @@ p {
   	width: 350px;
 	}
 }
-
-/* @media only screen and (max-width : 1088px) {
-  .pfolio {
-  }
-  .card-body.sq {
-  	margin: 10px;
-  	height: 140px;
-  	width: 350px;
-  }
-  card-img.sample{
-	height: 100%;
-  }
-} */
 
 .icon-block {
   padding: 0 15px;

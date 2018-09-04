@@ -15,9 +15,8 @@ const App = () => (
 	  	<About />
 	  	<Contact />
 	  	<Card />
-		<Footer />
-	</div>
+			<Footer />
+		</div>
   </div>
 );
-
 export default App;

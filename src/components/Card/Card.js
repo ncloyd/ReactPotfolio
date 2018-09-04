@@ -8,13 +8,7 @@ class Card extends Component {
 					<h3 className="pject">Projects</h3>
 						<div className="flex-container">
 						  		<div className="card-body sq">
-						  			<a href="https://afternoon-sea-84029.herokuapp.com/index" target="blank">
-						  				<img className="card-img sample" src="/burger3.jpg" alt="pic"/>
-						  	    		<p className="card-text"></p>
-						  			</a>
-						  		</div>
-						  		<div className="card-body sq">
-						  			<a href="https://github.com/ncloyd/restaurant" target="blank">
+						  			<a href="https://natalies-bakeshop.herokuapp.com/home" target="blank">
 						  				<img className="card-img sample" src="/restfront.jpg" alt="pic"/>
 						  	    		<p className="card-text"></p>
 						  			</a>
@@ -31,6 +25,12 @@ class Card extends Component {
 							  	    	<p className="card-text"></p>
 							  		</a>
 					  			</div>
+								<div className="card-body sq">
+						  			<a href="https://afternoon-sea-84029.herokuapp.com/index" target="blank">
+						  				<img className="card-img sample" src="/burger3.jpg" alt="pic"/>
+						  	    		<p className="card-text"></p>
+						  			</a>
+						  		</div>
 					  	</div>
 				</div>
 		)
