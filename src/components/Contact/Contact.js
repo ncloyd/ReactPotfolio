@@ -9,7 +9,7 @@ const Contact = () => (
 		        	</div>
 		      	</div>
 		    </div>
-				<div className="parallax">
+				<div className="parallax wish">
 						<img src="/wishie.jpg" alt="Unsplashed background img 3" />
 				</div>
 		</div>

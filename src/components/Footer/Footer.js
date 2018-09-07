@@ -7,12 +7,11 @@ const Footer = () => (
 		<div className="footText">NC 2018</div>
 		<div className="links">
 			<a href="https://github.com/ncloyd" target="blank">
-				<img src={git} alt="git" className="smallimg" />
+				<img src={git} alt="git" className="smallimg2" />
 			</a>	
 			<a href="https://linkedin.com/in/nicole-cloyd-241b0073" target="blank">
 				<img src={linkedin} alt="linkedin" className="smallimg" />
 			</a>
-			{/* <h7>Photo by Ian Froome on Unsplash</h7> */}
 		</div>
 	</div>
 
